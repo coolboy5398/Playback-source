@@ -160,14 +160,14 @@ function overwriteRules(params) {
 			url: 'https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt',
 			path: './ruleset/lancidr.yaml',
 			interval: 86400
-		},
-		applications: {
-			type: 'http',
-			behavior: 'classical',
-			url: 'https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt',
-			path: './ruleset/applications.yaml',
-			interval: 86400
 		}
+		// applications: {
+		// 	type: 'http',
+		// 	behavior: 'classical',
+		// 	url: 'https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt',
+		// 	path: './ruleset/applications.yaml',
+		// 	interval: 86400
+		// }
 	}
 	params['rule-providers'] = ruleProviders
 	params['rules'] = rules
