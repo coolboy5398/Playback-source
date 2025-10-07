@@ -56,7 +56,7 @@ function overwriteRules(params) {
 		'RULE-SET,lancidr,DIRECT',
 		'GEOIP,LAN,DIRECT,no-resolve',
 		'GEOIP,CN,DIRECT,no-resolve',
-		'RULE-SET,applications,DIRECT',
+		// 'RULE-SET,applications,DIRECT',
 		// 自动生成自定义代理规则
 		...customProxyDomains.map(domain => `DOMAIN-SUFFIX,${domain},${proxyName}`),
 		'RULE-SET,tld-not-cn,' + proxyName,
@@ -160,14 +160,14 @@ function overwriteRules(params) {
 			url: 'https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt',
 			path: './ruleset/lancidr.yaml',
 			interval: 86400
+		},
+		applications: {
+			type: 'http',
+			behavior: 'classical',
+			url: 'https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt',
+			path: './ruleset/applications.yaml',
+			interval: 86400
 		}
-		// applications: {
-		// 	type: 'http',
-		// 	behavior: 'classical',
-		// 	url: 'https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt',
-		// 	path: './ruleset/applications.yaml',
-		// 	interval: 86400
-		// }
 	}
 	params['rule-providers'] = ruleProviders
 	params['rules'] = rules
