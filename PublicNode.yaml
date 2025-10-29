@@ -475,56 +475,6 @@ proxies:
     http-opts: {}
     grpc-opts: {}
     network: "tcp"
-  - type: "vless"
-    name: "US-10.24-200G"
-    server: "us-n1.starvm.top"
-    port: 61572
-    uuid: "f451483a-fc96-4516-a870-cfd6bf55cf80"
-    tls: true
-    servername: "cloudflare.com"
-    flow: "xtls-rprx-vision"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    reality-opts:
-      public-key: "0zqjw5p6UO8AQ4bFVnCH8apvBKgFevSLxbZ20KkaW24"
-      short-id: "4ea090"
-    ws-opts: {}
-    http-opts: {}
-    grpc-opts: {}
-    network: "tcp"
-  - type: "vless"
-    name: "US-10.10-1024G"
-    server: "216.133.148.160"
-    port: 61572
-    uuid: "231daa52-5218-4578-ae7a-4cd1f578d9de"
-    tls: true
-    servername: "www.cloudflare.com"
-    flow: "xtls-rprx-vision"
-    client-fingerprint: "chrome"
-    skip-cert-verify: false
-    reality-opts:
-      public-key: "_gpWUrzcktLAdt8P6VZ1fC7EXOO_yWFCSTOW-dcIQE4"
-    ws-opts: {}
-    http-opts: {}
-    grpc-opts: {}
-    network: "tcp"
-  - type: "vless"
-    name: "233boy-ws-daili.cnmnmsl.baby"
-    server: "daili.cnmnmsl.baby"
-    port: 443
-    uuid: "ff2927b7-2469-432c-9e67-3748cd2616e2"
-    tls: true
-    servername: "daili.cnmnmsl.baby"
-    skip-cert-verify: false
-    ws-opts:
-      headers:
-        Host: "daili.cnmnmsl.baby"
-      path: "/ff2927b7-2469-432c-9e67-3748cd2616e2"
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    http-opts: {}
-    grpc-opts: {}
-    network: "ws"
   - name: "🇭🇰 HK HGC"
     type: ss
     server: domainin.linkdnsblog.xyz
@@ -798,7 +748,234 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: "5110c9aa-857e-473b-8c8b-7d5805ab1195"
     udp: true
-
+  - {
+      "name": "[Hy2]1x-希腊BGP-扣费1x",
+      "server": "216.9.226.176",
+      "port": 62589,
+      "type": "hysteria2",
+      "password": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "auth": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "sni": "www.apple.com",
+      "skip-cert-verify": true,
+      "obfs": "salamander",
+      "obfs-password": "UtrQfYEuqNXGJEB4",
+    }
+  - {
+      "name": "[Hy2]1x-欧盟BGP内陆",
+      "server": "87.229.95.173",
+      "port": 42589,
+      "type": "hysteria2",
+      "password": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "auth": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "sni": "www.apple.com",
+      "skip-cert-verify": true,
+      "obfs": "salamander",
+      "obfs-password": "gGj0tX7FRoJBItkX",
+    }
+  - {
+      "name": "[Hy2]1x-土耳其共和国BGP",
+      "server": "185.181.208.82",
+      "port": 47155,
+      "type": "hysteria2",
+      "password": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "auth": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "sni": "www.python.org",
+      "skip-cert-verify": true,
+      "obfs": "salamander",
+      "obfs-password": "gLWERdCK5RrwaIbn",
+    }
+  - {
+      "name": "[Hy2]5x-新加坡BGP机构专线2",
+      "server": "iplc.vosniehcihwocc.cfd",
+      "port": 63392,
+      "type": "hysteria2",
+      "password": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "auth": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "sni": "www.apple.com",
+      "skip-cert-verify": true,
+      "obfs": "salamander",
+      "obfs-password": "qjuUy6Y6aqRDsFuj",
+    }
+  - {
+      "name": "[vless]1x-瑞士BGP线路2",
+      "server": "167.17.183.41",
+      "port": 60001,
+      "type": "vless",
+      "uuid": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "tls": true,
+      "reality-opts":
+        {
+          "public-key": "2uyRS6f8nHxIJmTPDycUb-ck5R78wzpzGBctr0tLbWw",
+          "short-id": "18dd0da11afa79",
+        },
+      "client-fingerprint": "qq",
+      "network": "tcp",
+      "servername": "www.python.org",
+    }
+  - {
+      "name": "[Hy2]1x-瑞士BGP线路1",
+      "server": "167.17.183.41",
+      "port": 42627,
+      "type": "hysteria2",
+      "password": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "auth": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "sni": "www.apple.com",
+      "skip-cert-verify": true,
+      "obfs": "salamander",
+      "obfs-password": "XCxf9zDxDQPdmiyF",
+    }
+  - {
+      "name": "[Hy2]2x-韩国BGP",
+      "server": "38.45.89.44",
+      "port": 53341,
+      "type": "hysteria2",
+      "password": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "auth": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "sni": "www.apple.com",
+      "skip-cert-verify": true,
+      "obfs": "salamander",
+      "obfs-password": "VLSU5fE88xkM5xnZ",
+    }
+  - {
+      "name": "[Hy2]2x-美国BGP专线",
+      "server": "38.45.89.44",
+      "port": 51331,
+      "type": "hysteria2",
+      "password": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "auth": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "sni": "www.apple.com",
+      "skip-cert-verify": true,
+      "obfs": "salamander",
+      "obfs-password": "VLSU5fE88xkM5xnZ",
+    }
+  - {
+      "name": "[Hy2]5x-新加坡BGP机构专线",
+      "server": "38.247.64.210",
+      "port": 37833,
+      "type": "hysteria2",
+      "password": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "auth": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "sni": "www.apple.com",
+      "skip-cert-verify": true,
+      "obfs": "salamander",
+      "obfs-password": "2fiug7xuHPEvX7cM",
+    }
+  - {
+      "name": "[Hy2]1x-摩尔-gemini/chatgpt专属BGP",
+      "server": "moldova.vosniehcihwocc.cfd",
+      "port": 42729,
+      "type": "hysteria2",
+      "password": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "auth": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "sni": "moldova.vosniehcihwocc.cfd",
+      "skip-cert-verify": true,
+      "obfs": "salamander",
+      "obfs-password": "1IBMslL3m6OXDD8m",
+    }
+  - {
+      "name": "[vless]1x-香港4-1043018",
+      "server": "45.144.174.72",
+      "port": 42149,
+      "type": "vless",
+      "uuid": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "tls": true,
+      "reality-opts":
+        {
+          "public-key": "nSp1em9gbsG4VzJ2HUXZR8a515FmZ-Im05wTDJ06xXY",
+          "short-id": "86cd4a57db",
+        },
+      "client-fingerprint": "edge",
+      "network": "tcp",
+      "servername": "python.org",
+    }
+  - {
+      "name": "[Hy2]1x-香港BGP线路3-1043018",
+      "server": "45.144.174.72",
+      "port": 14655,
+      "type": "hysteria2",
+      "password": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "auth": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "sni": "apple.com",
+      "skip-cert-verify": true,
+      "obfs": "salamander",
+      "obfs-password": "Ym1uIfLUe6r43qUb",
+    }
+  - {
+      "name": "[vless]10x-香港-AAAA",
+      "server": "38.55.192.32",
+      "port": 53252,
+      "type": "vless",
+      "uuid": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "tls": true,
+      "reality-opts":
+        {
+          "public-key": "qCYyp1yw7WYvEW9Z-eZnOgNYNF2avry6TybZVWQCBAY",
+          "short-id": "79ca4558",
+        },
+      "client-fingerprint": "chrome",
+      "network": "tcp",
+      "servername": "www.apple.com",
+    }
+  - {
+      "name": "[Hy2]1x-日本东京BGP线路3-1042993",
+      "server": "212.192.221.246",
+      "port": 31782,
+      "type": "hysteria2",
+      "password": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "auth": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "sni": "apple.com",
+      "skip-cert-verify": true,
+      "obfs": "salamander",
+      "obfs-password": "axrnXt0tbsUF316O",
+    }
+  - {
+      "name": "[Hy2]2x-德国LosAngelesBGP线路2-1042995",
+      "server": "166.1.190.133",
+      "port": 5133,
+      "type": "hysteria2",
+      "password": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "auth": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "sni": "apple.com",
+      "skip-cert-verify": true,
+      "obfs": "salamander",
+      "obfs-password": "hHZ3rdohyM1B7LZQ",
+    }
+  - {
+      "name": "[Hy2]1x-德国LosAngelesBGP线路1-1042995",
+      "server": "166.1.190.133",
+      "port": 3113,
+      "type": "hysteria2",
+      "password": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "auth": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "sni": "apple.com",
+      "skip-cert-verify": true,
+      "obfs": "salamander",
+      "obfs-password": "9kTEnkzi8eHaQf14",
+    }
+  - {
+      "name": "[Hy2]1x-美国BGP线路2-1042992",
+      "server": "207.174.28.211",
+      "port": 63141,
+      "type": "hysteria2",
+      "password": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "auth": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "sni": "apple.com",
+      "skip-cert-verify": true,
+      "obfs": "salamander",
+      "obfs-password": "4mi7vUYqzUsZJ4dC",
+    }
+  - {
+      "name": "[Hy2]2x-法国BGP线路1-1042992",
+      "server": "207.174.28.211",
+      "port": 55152,
+      "type": "hysteria2",
+      "password": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "auth": "d1560d75-5ba8-409a-9b1a-edd035d21874",
+      "sni": "apple.com",
+      "skip-cert-verify": true,
+      "obfs": "salamander",
+      "obfs-password": "m1CTr1ATgI1GYwl9",
+    }
 proxy-groups:
   # 总策略组，你在规则里会用到这个
   - name: "公益节点"

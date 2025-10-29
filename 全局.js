@@ -41,6 +41,7 @@ function overwriteRules(params) {
 		// 'telegram.exe',    // Telegram
 		// 'discord.exe',     // Discord
 		// 'chrome.exe',      // Chrome 浏览器
+		'比特浏览器.exe'
 	]
 
 	const rules = [
