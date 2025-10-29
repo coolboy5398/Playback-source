@@ -976,6 +976,25 @@ proxies:
       "obfs": "salamander",
       "obfs-password": "m1CTr1ATgI1GYwl9",
     }
+  - {
+      name: 🇯🇵 JP软银家宽VPS,
+      server: softbank88.xzcloudnode.sbs,
+      port: 51623,
+      reality-opts:
+        {
+          public-key: ln4RiHk9_Ea_EyeI2GpZfzilPyrqKYDBqis09esVECo,
+          short-id: "6ba85179e30d4fc2",
+        },
+      client-fingerprint: chrome,
+      type: vless,
+      uuid: 8129a335-37d4-4932-8dca-ac4358ce60b7,
+      tls: true,
+      tfo: false,
+      flow: xtls-rprx-vision,
+      skip-cert-verify: false,
+      servername: itunes.apple.com,
+      network: tcp,
+    }
 proxy-groups:
   # 总策略组，你在规则里会用到这个
   - name: "公益节点"
