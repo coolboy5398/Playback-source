@@ -16,6 +16,10 @@ const customProxyDomains = [
 	// 在这里添加需要走代理的域名，每行一个
 	// 'github.com',
 	// 'twitter.com',
+	'adobe.com',
+	'adobe.io',
+	'adobestats.io',
+	'hstatic.io'
 ]
 
 function main(params) {
