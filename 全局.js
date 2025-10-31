@@ -4,7 +4,7 @@ const proxyName = '🕵️代理模式'
 
 // 自定义直连域名列表（方便维护，全局变量供 DNS 配置使用）
 const customDirectDomains = [
-	'linux.do',
+	// 'linux.do',
 	'h-e.top'
 	// 在这里继续添加需要直连的域名，每行一个
 	// 'baidu.com',
