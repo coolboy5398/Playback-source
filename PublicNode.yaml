@@ -826,6 +826,17 @@ proxies:
       network: ws,
       ws-opts: { path: /, headers: { Host: vziua.wxgqlfx.cn } },
     }
+  - {
+      name: 🇹🇼 TW2-Hinet-直连,
+      server: hinet-tw-01-ddns.sakuraikaede.com,
+      port: 30002,
+      client-fingerprint: chrome,
+      type: hysteria2,
+      password: b443f03b-f189-4fa1-85b1-c21f3256c06d,
+      auth: b443f03b-f189-4fa1-85b1-c21f3256c06d,
+      sni: hinet.eessgrgrgrgr.cloudns.nz,
+      skip-cert-verify: false,
+    }
 proxy-groups:
   # 总策略组，你在规则里会用到这个
   - name: "公益节点"
