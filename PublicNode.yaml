@@ -54,6 +54,23 @@ proxies:
       "cipher": "aes-256-gcm",
       "password": "0fsbt3LXbwcMHXGuzurEqWC2h9CX0qcZTCFh8OdwLos=",
     }
+  - {
+      "type": "vless",
+      "name": "1h自建[vless+ws+tls]-nc8aqorx",
+      "server": "cf.tencentapp.cn",
+      "port": 2053,
+      "uuid": "33b6137e-33dc-416d-934e-e831642d146e",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "vles2.518318.xyz",
+      "ws-opts":
+        {
+          "path": "/eMGLTPf4Q8jOI1mD",
+          "headers": { "host": "vles2.518318.xyz" },
+        },
+    }
 proxy-groups:
   # 总策略组，你在规则里会用到这个
   - name: "公益节点"
