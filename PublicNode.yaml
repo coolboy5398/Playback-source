@@ -1,137 +1,6 @@
 # Profile Template for Clash Verge
 
 proxies:
-  - {
-      name: 高速,
-      server: 172.64.229.58,
-      port: 443,
-      type: vless,
-      uuid: 188f8a72-6b58-4cf2-ab66-766a9388e6ba,
-      tls: true,
-      tfo: false,
-      skip-cert-verify: false,
-      servername: 5c8d.fsafasdfas.online,
-      client-fingerprint: chrome,
-      network: ws,
-      ws-opts: { path: "/?ed=2560", headers: { Host: 5c8d.fsafasdfas.online } },
-    }
-  - {
-      name: 高速 2,
-      server: cf.877774.xyz,
-      port: 443,
-      type: vless,
-      uuid: 188f8a72-6b58-4cf2-ab66-766a9388e6ba,
-      tls: true,
-      tfo: false,
-      skip-cert-verify: false,
-      servername: 5c8d.fsafasdfas.online,
-      client-fingerprint: chrome,
-      network: ws,
-      ws-opts: { path: "/?ed=2560", headers: { Host: 5c8d.fsafasdfas.online } },
-    }
-  - {
-      name: 高速 3,
-      server: 104.26.13.152,
-      port: 443,
-      type: vless,
-      uuid: 188f8a72-6b58-4cf2-ab66-766a9388e6ba,
-      tls: true,
-      tfo: false,
-      skip-cert-verify: false,
-      servername: 5c8d.fsafasdfas.online,
-      client-fingerprint: chrome,
-      network: ws,
-      ws-opts: { path: "/?ed=2560", headers: { Host: 5c8d.fsafasdfas.online } },
-    }
-  - {
-      name: 高速 4,
-      server: 172.64.53.114,
-      port: 443,
-      type: vless,
-      uuid: 188f8a72-6b58-4cf2-ab66-766a9388e6ba,
-      tls: true,
-      tfo: false,
-      skip-cert-verify: false,
-      servername: 5c8d.fsafasdfas.online,
-      client-fingerprint: chrome,
-      network: ws,
-      ws-opts: { path: "/?ed=2560", headers: { Host: 5c8d.fsafasdfas.online } },
-    }
-  - {
-      name: 高速 5,
-      server: cloudflare.seeck.cn,
-      port: 443,
-      type: vless,
-      uuid: 336318d2-4658-48cf-8865-d6a2822e1338,
-      tls: true,
-      alpn: [h3],
-      tfo: false,
-      skip-cert-verify: false,
-      servername: fd.c.f.1.1.2.e.0.7.4.0.1.0.0.2.ip6.arpa,
-      client-fingerprint: random,
-      network: ws,
-      ws-opts:
-        {
-          path: /proxyip=proxyip.sg.cmliussss.net,
-          headers: { Host: fd.c.f.1.1.2.e.0.7.4.0.1.0.0.2.ip6.arpa },
-        },
-    }
-  - {
-      name: 高速 6,
-      server: 172.64.156.57,
-      port: 443,
-      type: vless,
-      uuid: 69bcb4e0-5639-4051-97eb-db70060da9dd,
-      tls: true,
-      tfo: false,
-      skip-cert-verify: false,
-      servername: vziua.wxgqlfx.cn,
-      client-fingerprint: firefox,
-      network: ws,
-      ws-opts: { path: /, headers: { Host: vziua.wxgqlfx.cn } },
-    }
-  - {
-      name: 高速 7,
-      server: 8.35.211.176,
-      port: 443,
-      type: vless,
-      uuid: 69bcb4e0-5639-4051-97eb-db70060da9dd,
-      tls: true,
-      tfo: false,
-      skip-cert-verify: false,
-      servername: vziua.wxgqlfx.cn,
-      client-fingerprint: firefox,
-      network: ws,
-      ws-opts: { path: /, headers: { Host: vziua.wxgqlfx.cn } },
-    }
-  - {
-      name: 高速 8,
-      server: 8.35.211.174,
-      port: 443,
-      type: vless,
-      uuid: 69bcb4e0-5639-4051-97eb-db70060da9dd,
-      tls: true,
-      tfo: false,
-      skip-cert-verify: false,
-      servername: vziua.wxgqlfx.cn,
-      client-fingerprint: firefox,
-      network: ws,
-      ws-opts: { path: /, headers: { Host: vziua.wxgqlfx.cn } },
-    }
-  - {
-      name: 高速 9,
-      server: 162.159.46.145,
-      port: 443,
-      type: vless,
-      uuid: 69bcb4e0-5639-4051-97eb-db70060da9dd,
-      tls: true,
-      tfo: false,
-      skip-cert-verify: false,
-      servername: vziua.wxgqlfx.cn,
-      client-fingerprint: firefox,
-      network: ws,
-      ws-opts: { path: /, headers: { Host: vziua.wxgqlfx.cn } },
-    }
   - name: JP, Chiyoda City1 - (vmess)
     type: vmess
     server: 61.120.9.20
@@ -197,6 +66,25 @@ proxies:
     port: 46816
     password: 02154a72-d818-10fc-f63c-9eb02a7d6e29
     cipher: chacha20-ietf-poly1305
+  - {
+      name: 🇺🇸 kylekonge-us,
+      server: 142.171.219.19,
+      port: 25430,
+      type: vless,
+      uuid: f9919620-dacb-4e85-873f-52d5ee9b92ad,
+      tls: true,
+      tfo: false,
+      skip-cert-verify: false,
+      reality-opts:
+        {
+          public-key: V41s8P7yU5rEugbdSU9fDBTP236u88qvznX3pJd29nA,
+          short-id: "f84d4da5",
+        },
+      servername: yahoo.com,
+      client-fingerprint: chrome,
+      network: http,
+      http-opts: { method: GET, path: [/], headers: { Host: [yahoo.com] } },
+    }
 proxy-groups:
   # 总策略组，你在规则里会用到这个
   - name: "公益节点"
