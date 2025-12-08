@@ -71,6 +71,19 @@ proxies:
           "headers": { "host": "vles2.518318.xyz" },
         },
     }
+  - {
+      "type": "vless",
+      "name": "土耳其",
+      "server": "91.132.51.85",
+      "port": 33260,
+      "uuid": "61962d85-f143-45a1-b2f8-4d066b9479e8",
+      "skip-cert-verify": true,
+      "network": "tcp",
+      "flow": "xtls-rprx-vision",
+      "servername": "apple.com",
+      "tls": false,
+      "udp": true,
+    }
 proxy-groups:
   # 总策略组，你在规则里会用到这个
   - name: "公益节点"
