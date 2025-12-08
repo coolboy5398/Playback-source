@@ -85,6 +85,14 @@ proxies:
       network: http,
       http-opts: { method: GET, path: [/], headers: { Host: [yahoo.com] } },
     }
+  - {
+      "type": "ss",
+      "name": "🇺🇸美国住宅-细胞-9.13到期",
+      "server": "hr5.tk189.cn",
+      "port": 22042,
+      "cipher": "aes-256-gcm",
+      "password": "0fsbt3LXbwcMHXGuzurEqWC2h9CX0qcZTCFh8OdwLos=",
+    }
 proxy-groups:
   # 总策略组，你在规则里会用到这个
   - name: "公益节点"
